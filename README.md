@@ -1,4 +1,5 @@
-# CRUD-SISTEM-INFORMASI-KAMPUSpenggunaan aplikasi sistem informasi kampus ada 3 level :
+# CRUD-SISTEM-INFORMASI-KAMPUS
+penggunaan aplikasi sistem informasi kampus ada 3 level :
  1 user = admin
    pw   = 123
  2 user = dosen
