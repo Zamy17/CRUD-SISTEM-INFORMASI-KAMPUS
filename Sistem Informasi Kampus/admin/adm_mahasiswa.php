@@ -22,7 +22,7 @@ function printTable() {
             <a class="btn btn-primary" onclick="printTable()" title="Print Data">
                 <span class="glyphicon glyphicon-print"></span> Print</a>
         </div>
-        <div style="clear: both;"></div>
+        <div style="clear: both;"></div> <p></p>
 
         <table class="table table-stripped table-hover datatabel">
             <thead>
@@ -56,7 +56,7 @@ function printTable() {
                             <img src="../uploads/<?php echo $row["foto_mhs"]; ?>" alt="Foto Mahasiswa" class="img-thumbnail" style="width: 70px; height: 70px;">
                         </td>
                         <td>
-                            <a href="../adm_mahasiswa/update_mhs.php?id=<?php echo $row["id_mhs"];?>" type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-cog"></span> Edit</a>
+                            <a href="../adm_mahasiswa/update_mhs.php?id=<?php echo $row["id_mhs"];?>" type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-cog"></span> Edit</a><p></p>
                             <a href="../adm_mahasiswa/hapus_mhs.php?id=<?php echo $row["id_mhs"];?>" onclick="return confirm('Yakin MENGHAPUS data ?');" type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span> Hapus</a>
                         </td>
                     </tr>
